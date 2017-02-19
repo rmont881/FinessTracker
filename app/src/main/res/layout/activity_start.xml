@@ -10,8 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="fitness.rmont.fitnesstracker.StartActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="fitness.rmont.fitnesstracker.fragments.start.LoginFragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/containerLayout"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/fragment_login" />
+
 </RelativeLayout>
