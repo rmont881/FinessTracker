@@ -13,51 +13,51 @@ public class User {
   String nickname = "";
   float weight = 0.0f;
 
-  public String getAuth_token() {
+  public String get_auth_token() {
     return auth_token;
   }
 
-  public void setAuth_token(String auth_token) {
+  public void set_auth_token(String auth_token) {
     this.auth_token = auth_token;
   }
 
-  public String getFirst_name() {
+  public String get_first_name() {
     return first_name;
   }
 
-  public void setFirst_name(String first_name) {
+  public void set_first_name(String first_name) {
     this.first_name = first_name;
   }
 
-  public String getLast_name() {
+  public String get_last_name() {
     return last_name;
   }
 
-  public void setLast_name(String last_name) {
+  public void set_last_name(String last_name) {
     this.last_name = last_name;
   }
 
-  public int getAge() {
+  public int get_age() {
     return age;
   }
 
-  public void setAge(int age) {
+  public void set_age(int age) {
     this.age = age;
   }
 
-  public String getNickname() {
+  public String get_nickname() {
     return nickname;
   }
 
-  public void setNickname(String nickname) {
+  public void set_nickname(String nickname) {
     this.nickname = nickname;
   }
 
-  public float getWeight() {
+  public float get_weight() {
     return weight;
   }
 
-  public void setWeight(float weight) {
+  public void set_weight(float weight) {
     this.weight = weight;
   }
 
